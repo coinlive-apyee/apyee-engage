@@ -2,6 +2,15 @@
 
 Daily check-in smart contract on opBNB.
 
+## Deployment
+
+| | |
+|---|---|
+| Network | opBNB Mainnet (Chain ID: 204) |
+| Contract | `0x9fdE6afdE358cdEAF7B9eF59B615D4cD54cB32Ff` |
+| Explorer | https://opbnb.bscscan.com/address/0x9fdE6afdE358cdEAF7B9eF59B615D4cD54cB32Ff#code |
+| Source | Verified ✔ |
+
 ## Tech Stack
 
 - Solidity 0.8.24
