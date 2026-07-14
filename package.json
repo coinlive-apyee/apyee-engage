@@ -9,8 +9,7 @@
     "deploy:mainnet": "hardhat run scripts/deploy.ts --network opbnbMainnet",
     "verify:testnet": "hardhat verify --network opbnbTestnet",
     "verify:mainnet": "hardhat verify --network opbnbMainnet",
-    "checkin": "hardhat run scripts/checkin.ts --network opbnbMainnet",
-    "checkin:paymaster": "npx ts-node scripts/checkin-paymaster.ts"
+    "checkin": "hardhat run scripts/checkin.ts --network opbnbMainnet"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
@@ -20,7 +19,6 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.1.0",
-    "@particle-network/aa": "^1.5.3",
     "dotenv": "^17.3.1"
   }
 }

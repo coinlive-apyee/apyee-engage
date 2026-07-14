@@ -1,6 +1,6 @@
 # Apyee Engage Check-in Contract
 
-Daily check-in smart contract on opBNB, with Particle Network Paymaster (gasless) support.
+Daily check-in smart contract on opBNB.
 
 ## Tech Stack
 
@@ -40,7 +40,5 @@ npm run verify:mainnet   # Verify contract on mainnet
 ## Check-in Flow
 
 ```
-User Smart Account (Particle) → checkIn() → daily-limit check → record check-in
-                                                ↑
-                                 Particle Paymaster sponsors the gas
+User → checkIn() → daily-limit check → record check-in
 ```
